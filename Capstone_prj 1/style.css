@@ -1,0 +1,67 @@
+.gradient-background {
+  background: linear-gradient(300deg, #00bfff, #ff4c68, #ef8172);
+  background-size: 180% 180%;
+  animation: gradient-animation 18s ease infinite;
+}
+
+@keyframes gradient-animation {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+body {
+    font-family: Arial, sans-serif;
+  }
+  
+  header {
+    background: linear-gradient(90deg, #007bff, #0056b3);
+  }
+  
+  .card img {
+    height: 200px;
+    object-fit: cover;
+  }
+  
+  footer {
+    background: #222;
+  }
+
+  footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #212529; /* Slightly lighter dark background */
+    border-top: 1px solid #343a40; /* Subtle top border */
+  }
+   
+  footer hr {
+    border: 0;
+    border-top: 1px solid #343a40; /* Subtle top border */
+    margin: 0 0 10px; /* Space below the hr */
+  }
+  
+  .brand {
+    display: flex;
+    align-items: center;
+  }
+  .brand img {
+    height: 24px;
+    margin-right: 10px;
+  }
+  .social-icons a {
+    margin: 0 5px;
+    text-decoration: none;
+    color: #adb5bd;
+    font-size: 18px;
+  }
+  .social-icons a:hover {
+    color: white;
+  }
