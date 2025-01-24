@@ -1,0 +1,2 @@
+'Player 1' and 'Player 2' signifies two individual competitors in a dice game. Through random() function we take two random (+ve)integer between 1 and 6,then 
+compare their result. The result gets printed through innerHTML in javascipt file. 
